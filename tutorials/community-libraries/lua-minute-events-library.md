@@ -4,7 +4,7 @@ description: by MuffinMario
 
 # MinuteEvents-Library
 
-{% embed url="https://github.com/MuffinMario/Siedler-4-Lua-Minute-Events-Library" %}
+<iframe style="width: 100%;aspect-ratio:16/9;" src="https://github.com/MuffinMario/Siedler-4-Lua-Minute-Events-Library" frameborder="0" allowfullscreen></iframe>
 
 <details>
 
@@ -69,8 +69,8 @@ Eine easy-to-use library zum benutzen von callback funktionen die zu bestimmten 
 
 ## Benutzung
 
-* in deine new\_game Funktion musst du die Funktion `MinuteEvents.new_game()` aufrufen
-* in deine register\_functions Funktion musst du die Funktion `MinuteEvents.register_functions()` aufrufen
+* in deine new_game Funktion musst du die Funktion `MinuteEvents.new_game()` aufrufen
+* in deine register_functions Funktion musst du die Funktion `MinuteEvents.register_functions()` aufrufen
 * du benötigst eine Funktion mit dem Namen `register_minute_events()`, in der du die Funktionen, die zu bestimmten Minuten einmalig aufgerufen werden sollen registrierst
 
 ## Beispiel

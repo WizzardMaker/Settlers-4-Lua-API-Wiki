@@ -1,8 +1,8 @@
-# reg\_func
+# reg_func
 
 ## `reg_func(function)`
 
-Registriert eine Funktion, die vom Spiel als Event aufgerufen werden soll. Für Funktionen, die nur von einer anderen Funktion aufgerufen werden, ist dies nicht erforderlich. Reg\_func wird in der zweiten Einstiegsfunktion register\_functions implementiert.
+Registriert eine Funktion, die vom Spiel als Event aufgerufen werden soll. Für Funktionen, die nur von einer anderen Funktion aufgerufen werden, ist dies nicht erforderlich. Reg_func wird in der zweiten Einstiegsfunktion register_functions implementiert.
 
 #### Rückgabewert
 

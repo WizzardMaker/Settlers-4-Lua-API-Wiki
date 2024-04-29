@@ -1,7 +1,9 @@
-# Einstieg: new\_game
+# Einstieg: new_game
 
-Die[ new\_game()](../../library-functions/global-functions/new\_game.md) Funktion ist der Haupteinstiegspunkt jedes Mapscripts. Neben [register\_functions()](../../library-functions/global-functions/register\_functions.md) ist dies die einzige Methode, welche vom S4 Spiel selbst direkt aufgerufen wird. (Hier wird der globale Bereich mal abgesehen, da der immer ausgeführt wird)\
-\
+Die[ new_game()](../../library-functions/global-functions/new_game.md) Funktion ist der Haupteinstiegspunkt jedes Mapscripts. Neben [register_functions()](../../library-functions/global-functions/register_functions.md) ist dies die einzige Methode, welche vom S4 Spiel selbst direkt aufgerufen wird. (Hier wird der globale Bereich mal abgesehen, da der immer ausgeführt wird)
+
+
+
 **Beispiel: Was wird ausgeführt?**
 
 ```lua
@@ -23,15 +25,20 @@ end
 dbg.stm("Ja, der globale Bereich wird vom Spiel aufgerufen!") -- nicht schön!!!
 ```
 
-Beim Spielstart sieht die Konsole möglicherweise so aus\
-![](https://web.archive.org/web/20200829133418im\_/https://i.imgur.com/dUluw2S.png)\
-Nach dem Laden des Spielstandes:\
-![](https://web.archive.org/web/20200829133418im\_/https://i.imgur.com/8G8gZ5n.png)\
+Beim Spielstart sieht die Konsole möglicherweise so aus
+
+<figure><img src="../https://web.archive.org/web/20200829133418im_/https://i.imgur.com/dUluw2S.png" alt=""><figcaption></figcaption></figure>
+
+Nach dem Laden des Spielstandes:
+
+<figure><img src="../https://web.archive.org/web/20200829133418im_/https://i.imgur.com/8G8gZ5n.png" alt=""><figcaption></figcaption></figure>
+
 
 
 ## **Funktionskriterien**
 
-\
+
+
 In Lua ist es relativ egal, wie man eine Funktion nennt, das Hauptkriterium ist, dass der Name nicht mit einer Zahl anfängt und keine ä,ö,ü,ß Umlaute enthält.&#x20;
 
 ```lua

@@ -8,7 +8,7 @@ Fügt eines der folgenden Fahrzeuge hinzu:&#x20;
 * Vehicles.FERRY
 * Vehicles.TRANSPORTSHIP
 * Vehicles.WARMACHINE
-* Vehicles.FOUNDATION\_CART&#x20;
+* Vehicles.FOUNDATION_CART&#x20;
 
 Wenn nicht alle Parameter ausgefüllt werden, wird die Einheit nicht auf Befehle wie AI.NewSquad() reagieren. Munition gilt nur für Kriegsschiffe und Kriegsmaschinen, auf alle anderen Einheiten hat der Wert keine Wirkung. Die Richtung wird als Zahl angegeben. Commands entscheidet, ob das Fahrzeug auf Bewegungsbefehle durch das Script reagieren wird (1 für ja, 0 für nein).
 

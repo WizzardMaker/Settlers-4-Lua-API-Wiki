@@ -4,9 +4,9 @@
 
 Gibt an, ob die meiste Landfläche bereits erkundet wurde. Wie viel % Land genau erkundet werden muss ist unklar
 
-{% hint style="info" %}
-Es muss der Land Explore Check vor dem Aufruf aktiviert worden sein. (siehe [Game.EnableLandExploredCheck](game.enablelandexploredcheck.md))
-{% endhint %}
+!!! info
+    Es muss der Land Explore Check vor dem Aufruf aktiviert worden sein. (siehe [Game.EnableLandExploredCheck](game.enablelandexploredcheck.md))
+
 
 #### Rückgabewert
 

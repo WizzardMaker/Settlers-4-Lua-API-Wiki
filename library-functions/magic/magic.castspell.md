@@ -6,14 +6,14 @@ Bewirkt den angegebenen Zauber an der angegebenen Stelle durch den angegebenen S
 
 |                        |   |
 | ---------------------- | - |
-| SPELL\_DIVINE\_PRESENT | 0 |
-| SPELL\_CONVERT\_GOOD   | 1 |
-| SPELL\_FOOD            | 2 |
-| SPELL\_TERRAIN         | 3 |
-| SPELL\_DEFENSE         | 4 |
-| SPELL\_ATTACK          | 5 |
-| SPELL\_SOLDIER         | 6 |
-| SPELL\_SPECIAL         | 7 |
+| SPELL_DIVINE_PRESENT | 0 |
+| SPELL_CONVERT_GOOD   | 1 |
+| SPELL_FOOD            | 2 |
+| SPELL_TERRAIN         | 3 |
+| SPELL_DEFENSE         | 4 |
+| SPELL_ATTACK          | 5 |
+| SPELL_SOLDIER         | 6 |
+| SPELL_SPECIAL         | 7 |
 
 #### Rückgabewert
 

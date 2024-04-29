@@ -6,10 +6,10 @@ Erteilt allen Einheiten, die per Script erstellt wurden und noch keinen Befehl e
 
 |                           |                                                               |
 | ------------------------- | ------------------------------------------------------------- |
-| AI.CMD\_MOVE\_AND\_STAY   | Einheit bleibt am Zielort                                     |
-| AI.CMD\_MOVE\_AND\_VANISH | Einheit verschwindet am Zielort                               |
-| AI.CMD\_MOVE\_HOME        | Einheit bewegt sich zur Siedlung, erfordert keine Koordinaten |
-| AI.CMD\_SUICIDE\_MISSION  | Einheit greift an, erfordert keine Koordinaten                |
+| AI.CMD_MOVE_AND_STAY   | Einheit bleibt am Zielort                                     |
+| AI.CMD_MOVE_AND_VANISH | Einheit verschwindet am Zielort                               |
+| AI.CMD_MOVE_HOME        | Einheit bewegt sich zur Siedlung, erfordert keine Koordinaten |
+| AI.CMD_SUICIDE_MISSION  | Einheit greift an, erfordert keine Koordinaten                |
 
 Einheiten reagieren nur auf Befehle, wenn bei ihrer Erstellung der Parameter "zum Squad hinzufügen" auf 1 gestellt ist, z.B. bei Schiffen Sonst kann es passieren, dass die Einheiten erscheinen, aber nichts tun.
 

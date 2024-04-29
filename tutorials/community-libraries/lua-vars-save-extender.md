@@ -4,7 +4,7 @@ description: by MuffinMario
 
 # VarsSave-Extender
 
-{% embed url="https://github.com/MuffinMario/Siedler-4-Lua-Vars-Save-Extender" %}
+<iframe style="width: 100%;aspect-ratio:16/9;" src="https://github.com/MuffinMario/Siedler-4-Lua-Vars-Save-Extender" frameborder="0" allowfullscreen></iframe>
 
 <details>
 
@@ -169,7 +169,7 @@ end
 
 ## Siedler-4-Lua-Vars-Save-Extender
 
-Siedler 4 stellt beim Speichern des Spiels neun [double-precision floating point](https://de.wikipedia.org/wiki/Doppelte\_Genauigkeit) Variablen zur Verfügung, die der Scripter für die Map benutzen kann. In den meisten Fällen, reichen diese aus, alle Sachen, die man im Laufe des Spiels im Überblick behalten muss zu speichern.
+Siedler 4 stellt beim Speichern des Spiels neun [double-precision floating point](https://de.wikipedia.org/wiki/Doppelte_Genauigkeit) Variablen zur Verfügung, die der Scripter für die Map benutzen kann. In den meisten Fällen, reichen diese aus, alle Sachen, die man im Laufe des Spiels im Überblick behalten muss zu speichern.
 
 Jedoch gibt es auch Fälle in denen man mehr als neun Sachen speichern muss, in diesem Falle hilft diese Bibliothek weiter.
 

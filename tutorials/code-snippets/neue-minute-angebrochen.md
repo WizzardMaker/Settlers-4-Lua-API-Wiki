@@ -13,8 +13,10 @@ function newMinute()
 end
 ```
 
-Damit ist es möglich verschiedene Dinge jede Minute passieren zu lassen. Ihr könnt z.B. folgendes implementieren.\
-\
+Damit ist es möglich verschiedene Dinge jede Minute passieren zu lassen. Ihr könnt z.B. folgendes implementieren.
+
+
+
 Innerhalb einer Methode die regelmäßig (Ticks) aufgerufen wird.
 
 ```lua

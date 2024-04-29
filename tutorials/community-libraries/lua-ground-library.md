@@ -4,7 +4,7 @@ description: by MuffinMario
 
 # Ground-Library
 
-{% embed url="https://github.com/MuffinMario/Siedler-IV-Lua-Ground-Library" %}
+<iframe style="width: 100%;aspect-ratio:16/9;" src="https://github.com/MuffinMario/Siedler-IV-Lua-Ground-Library" frameborder="0" allowfullscreen></iframe>
 
 Kleine Library für Böden setzen. Echt klein Einfach inhalt in deine Map copy-pasten und du kannst die Methode
 

@@ -1,4 +1,4 @@
-# new\_game
+# new_game
 
 ## `new_game()`
 

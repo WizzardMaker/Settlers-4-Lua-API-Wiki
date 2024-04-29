@@ -1,7 +1,9 @@
 # Anticheat
 
-Mithilfe der Chat Eingabe **!incubation2** kann man im Single Player Modus die Cheats aktivieren. Gibt man dann **!win** ein gilt die Karte als gewonnen und wird aufgedeckt. Falls man nicht möchte dass der Spieler die Karte aufdeckt kann man das per Script verhindern.\
-\
+Mithilfe der Chat Eingabe **!incubation2** kann man im Single Player Modus die Cheats aktivieren. Gibt man dann **!win** ein gilt die Karte als gewonnen und wird aufgedeckt. Falls man nicht möchte dass der Spieler die Karte aufdeckt kann man das per Script verhindern.
+
+
+
 Ein solches Script könnte wie folgt aussehen&#x20;
 
 ```lua
@@ -48,13 +50,20 @@ function VictoryConditionCheck()
 end
 ```
 
-Dieses Besipiel ist natürlich nicht perfekt, die Verwendung der Funktion **Game.IsAlmostAllLandExplored()** bringt einige Nachteile mit sich. Sie kontrolliert wie viel Prozent der Karte mit Land vom Spieler bereits entdeckt wurde, also nicht schwarz ist. Erreicht diese Zahl die 95% wertet **Game.IsAlmostAllLandExplored() == 1** zu TRUE aus. Es ist hier also möglich die Anticheat-Funktion zu triggern ohne zu cheaten.\
-\
-Als nächstes betrachten wir die Möglichkeiten damit die Anticheat-Funktion nicht triggert ohne zu cheaten.\
-\
-Am einfachsten wäre es als Mapper eine unerreichbare Insel zu erstellen die mindestens 5% der Landmasse einnimmt. Man sollte hierbei beachten dass der Spieler nicht die Trojaner spielt und keine Maya als Gegner eingestellt sind da mit dem Zauber _**Orakel von Delphi**_ der Trojaner und _**Verbannung**_ der Maya diese Bedingung durchbrochen werden kann.\
-\
-Die am meisten Verwendete Option ist das Ausschalten der Anti-Cheat Funktion nach einem gewissen Zeitraum zum Beispiel 100 Minuten.\
+Dieses Besipiel ist natürlich nicht perfekt, die Verwendung der Funktion **Game.IsAlmostAllLandExplored()** bringt einige Nachteile mit sich. Sie kontrolliert wie viel Prozent der Karte mit Land vom Spieler bereits entdeckt wurde, also nicht schwarz ist. Erreicht diese Zahl die 95% wertet **Game.IsAlmostAllLandExplored() == 1** zu TRUE aus. Es ist hier also möglich die Anticheat-Funktion zu triggern ohne zu cheaten.
+
+
+
+Als nächstes betrachten wir die Möglichkeiten damit die Anticheat-Funktion nicht triggert ohne zu cheaten.
+
+
+
+Am einfachsten wäre es als Mapper eine unerreichbare Insel zu erstellen die mindestens 5% der Landmasse einnimmt. Man sollte hierbei beachten dass der Spieler nicht die Trojaner spielt und keine Maya als Gegner eingestellt sind da mit dem Zauber _**Orakel von Delphi**_ der Trojaner und _**Verbannung**_ der Maya diese Bedingung durchbrochen werden kann.
+
+
+
+Die am meisten Verwendete Option ist das Ausschalten der Anti-Cheat Funktion nach einem gewissen Zeitraum zum Beispiel 100 Minuten.
+
 Eine weitere Alternative wäre, dass man Funktion ausschaltet nachdem eine bestimmte Anzahl an Gegnern besiegt wurde. Bei 5 Gegner könnte man nach 2 besiegten Gegnern die Funktion abschalten. So könnte das ganze insgesamt aussehen&#x20;
 
 ```lua

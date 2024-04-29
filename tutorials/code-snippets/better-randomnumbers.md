@@ -4,9 +4,9 @@ description: by Hippo
 
 # Verbesserte Zufallszahlen
 
-{% hint style="info" %}
-Ihr müsst **randomNumber** durch eine [Vars.Save-Variable](../advanced-tipps/die-vars.save-variablen.md) ersetzen, wenn der Zufall nicht nur zu Spielstart gebraucht wird, sondern auch später während des Spiels
-{% endhint %}
+!!! info
+    Ihr müsst **randomNumber** durch eine [Vars.Save-Variable](../advanced-tipps/die-vars.save-variablen.md) ersetzen, wenn der Zufall nicht nur zu Spielstart gebraucht wird, sondern auch später während des Spiels
+
 
 ```lua
 randomNumber = 0

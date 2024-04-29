@@ -4,9 +4,12 @@
 
 Eine Funktion die in normalen Maps nicht korrekt funktioniert. Abgesehen wurde sie wahrscheinlich exklusiv für Tutorials.
 
-Für normale Maps gilt: \
-dbg.aion(0) hat keinen sichtbaren Effekt \
-dbg.aion(z) z gleich Menschliche Partei: zeigt dem Spieler ein "Spiel Verloren" Banner an (man kann jedoch spielen) und eine KI spielt mit dem Spieler. \
+Für normale Maps gilt: 
+
+dbg.aion(0) hat keinen sichtbaren Effekt 
+
+dbg.aion(z) z gleich Menschliche Partei: zeigt dem Spieler ein "Spiel Verloren" Banner an (man kann jedoch spielen) und eine KI spielt mit dem Spieler. 
+
 dbg.aion(z) z gleich AI Partei: Aktiviert die AI sofern sie deaktiviert war.
 
 INFO: Was im Multiplayer passiert, wenn man einen anderen Spieler auf aion/aioff setzt ist unbekannt. Hypothese ist: Desynchronisation.

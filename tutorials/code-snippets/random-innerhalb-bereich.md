@@ -6,8 +6,10 @@ Gibt eine Zufallszahl innerhalb eines Bereichs zurück.
 
 `randomBetween(fromNumber, toNumber)`
 
-Du kannst diese ohne benötigte Installation verwenden, das einzige was du machen musst, ist die Logic unter deinem Script zu platzieren.\
-\
+Du kannst diese ohne benötigte Installation verwenden, das einzige was du machen musst, ist die Logic unter deinem Script zu platzieren.
+
+
+
 Du kannst die Funktion verwenden, indem du angibst, in welchen Bereich er eine Zufallszahl zurückgeben soll. z.B.:
 
 `randomBetween(10,20)`

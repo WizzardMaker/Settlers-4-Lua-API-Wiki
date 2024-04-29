@@ -1,2 +1,0 @@
-# Vollständige Mapscripts
-

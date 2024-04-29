@@ -2,7 +2,8 @@
 
 Mit diesen Funktionen könnt ihr die Anzahl an Soldaten einer Partei ermitteln.
 
-\
+
+
 Hiermit kannst du alle Soldaten getten, diese sich in einem Turm bzw. Burg befinden.
 
 `function getUnitsInBuildings(playerId)`
@@ -13,11 +14,16 @@ Hiermit kannst du alle Soldaten außerhalb von Gebäuden getten.&#x20;
 
 Hiermit kannst du alle Soldaten, egal ob in oder außerhalb von Gebäuden, getten.
 
-`getAmountOfPlayerUnits(playerId)`\
-\
-**Wie verwende ich es?**\
-Bei den oben genannten Funktionen kannst du sie so verwenden wie sie dort stehen. Du musst nur **playerId** mit der Parteinummer ersetzten.\
-\
+`getAmountOfPlayerUnits(playerId)`
+
+
+
+**Wie verwende ich es?**
+
+Bei den oben genannten Funktionen kannst du sie so verwenden wie sie dort stehen. Du musst nur **playerId** mit der Parteinummer ersetzten.
+
+
+
 Du musst nichts anderes machen, als die unten stehenden Logic's irgendwo hin zu copy pasten. Am besten, um die Ordnung beizubehalten, unter dem gesammten Script.&#x20;
 
 ```lua

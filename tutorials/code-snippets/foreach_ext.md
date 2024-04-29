@@ -2,7 +2,7 @@
 description: by MuffinMario
 ---
 
-# foreach\_ext
+# foreach_ext
 
 Wendet eine Function `f()` auf alle Elemente in einer Tabelle `t` an. Es können entsprechende zusätzliche Parameter mit übergeben werden für `f()`&#x20;
 

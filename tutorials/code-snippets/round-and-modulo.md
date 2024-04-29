@@ -6,7 +6,8 @@ description: by MuffinMario
 
 ## floorNumber
 
-Mit der folgenden Methode könnt ihr aus einer Kommazahl wieder ein Integer machen.\
+Mit der folgenden Methode könnt ihr aus einer Kommazahl wieder ein Integer machen.
+
 Leider ist im Siedler lua Math nicht angebunden, daher hier die eigene Floor Methode
 
 ```lua
@@ -23,7 +24,7 @@ end
 
 ## round & mymod
 
-Basierend auf floorNumber kannst du mit diesen Funktionen Zahlen runden, sowie mit Hilfe des [Modulo ](https://de.wikipedia.org/wiki/Division\_mit\_Rest#Modulo)Operators den Rest ausgeben lassen.
+Basierend auf floorNumber kannst du mit diesen Funktionen Zahlen runden, sowie mit Hilfe des [Modulo ](https://de.wikipedia.org/wiki/Division_mit_Rest#Modulo)Operators den Rest ausgeben lassen.
 
 ```lua
 function round(num)

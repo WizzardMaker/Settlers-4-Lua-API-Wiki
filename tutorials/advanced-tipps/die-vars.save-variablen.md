@@ -1,18 +1,24 @@
 # Die Vars.Save Variablen
 
-Nun da wir gelernt haben wo wir mit dem Scripten anfangen, nehmen wir uns mal ein kleines, aber interessantes Thema vor: Die Speichervariablen.\
-\
-Damit eine große Scriptmap die sich aktiv am Spielgeschehen der Map beteiligt richtig funktioniert, muss sie sich logischerweise nicht nur zu Start eines Spiels gut funktionieren, sondern auch nach dem laden eines Spielstandes. \
-\
-Leider ist in der Speicherdatei eines Spielstandes nicht alles gespeichert, was im globalen Bereich definiert wurde. Beim laden eines Spielstandes wird daher alles im Script zurückgesetzt wie beim ersten Start des Spieles.\
-Das bedeutet für uns im Klartext: Alle Variablen welche durch das Spiel geändert wurden, werden beim erneuten Spielstand laden zurückgesetzt bzw. nicht erneut erstellt. \
+Nun da wir gelernt haben wo wir mit dem Scripten anfangen, nehmen wir uns mal ein kleines, aber interessantes Thema vor: Die Speichervariablen.
+
+
+
+Damit eine große Scriptmap die sich aktiv am Spielgeschehen der Map beteiligt richtig funktioniert, muss sie sich logischerweise nicht nur zu Start eines Spiels gut funktionieren, sondern auch nach dem laden eines Spielstandes. 
+
+
+
+Leider ist in der Speicherdatei eines Spielstandes nicht alles gespeichert, was im globalen Bereich definiert wurde. Beim laden eines Spielstandes wird daher alles im Script zurückgesetzt wie beim ersten Start des Spieles.
+
+Das bedeutet für uns im Klartext: Alle Variablen welche durch das Spiel geändert wurden, werden beim erneuten Spielstand laden zurückgesetzt bzw. nicht erneut erstellt. 
+
 Natürlich haben die Entwickler sich da was ausgedacht. Die **Vars.SaveX** Variablen. Diese sind 9 Variablen (Vars.Save1 bis Vars.Save9) die alle **Zahlen abspeichern** können.
 
 Ein konkretes Beispiel zu dem Verhalten von normalen Variablen und Vars.SaveX Variablen sollte das veranschaulichen:
 
-{% hint style="info" %}
-_Info: Die Funktion_ [_register\_functions_](../../library-functions/global-functions/register\_functions.md) _bzw_[ _request\_event_ ](../../library-functions/global-functions/request\_event.md)_gehört fürs erste ignoriert. Alles was man wissen muss ist: **varSaveStandard** wird nur beim allerersten Start des Spiels aufgerufen und **onGameStartSave** bei sowohl neuem Spiel als auch geladenen. **tostring(x)** lässt uns bei nicht nummer/text einen text zurückbekommen (hier nil)_
-{% endhint %}
+!!! info
+    _Info: Die Funktion_ [_register_functions_](../../library-functions/global-functions/register_functions.md) _bzw_[ _request_event_ ](../../library-functions/global-functions/request_event.md)_gehört fürs erste ignoriert. Alles was man wissen muss ist: **varSaveStandard** wird nur beim allerersten Start des Spiels aufgerufen und **onGameStartSave** bei sowohl neuem Spiel als auch geladenen. **tostring(x)** lässt uns bei nicht nummer/text einen text zurückbekommen (hier nil)_
+
 
 ```lua
 GlobaleKonstante = 100
@@ -48,15 +54,15 @@ end
 
 ## Beim Spielbeginn
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/tBCXU1P.png)
+<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/tBCXU1P.png" alt=""><figcaption></figcaption></figure>
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/oR3Q6b6.png)
+<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/oR3Q6b6.png" alt=""><figcaption></figcaption></figure>
 
 ## **Beim Spiel laden**
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/BM6AcAP.png)
+<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/BM6AcAP.png" alt=""><figcaption></figcaption></figure>
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/1YhQzpV.png)
+<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/1YhQzpV.png" alt=""><figcaption></figcaption></figure>
 
 Hier haben wir 5 Typen von Variablen:
 
@@ -66,9 +72,12 @@ Hier haben wir 5 Typen von Variablen:
 * Speichervariable mit Zahl (Vars.Save1 und 9)
 * Inkorrekte Speichervariable (Vars.Save2 und 10)
 
-Hier kann man einiges feststellen, was sich nach dem Laden ändert:\
-**NichtInVars** wird nach dem Laden nie auf einen Wert gesetzt und ist deshalb nil (not initialized (zu deutsch: nicht initialisiert)).\
-**NichtInGlobal** (ups! **NichtInVars** ist ein Schreibfehler :) ) ändert sich ja im Laufe des Spiels, in einer Funktion. Stell dir nun vor du würdest nun einen Minutencounter haben, der sagt, ab welcher Minute die Gegner Soldaten bekommen und angreifen. Der wäre nun wieder auf dem Standardwert und das Script wäre verbuggt.\
+Hier kann man einiges feststellen, was sich nach dem Laden ändert:
+
+**NichtInVars** wird nach dem Laden nie auf einen Wert gesetzt und ist deshalb nil (not initialized (zu deutsch: nicht initialisiert)).
+
+**NichtInGlobal** (ups! **NichtInVars** ist ein Schreibfehler :) ) ändert sich ja im Laufe des Spiels, in einer Funktion. Stell dir nun vor du würdest nun einen Minutencounter haben, der sagt, ab welcher Minute die Gegner Soldaten bekommen und angreifen. Der wäre nun wieder auf dem Standardwert und das Script wäre verbuggt.
+
 Hier sieht man auch gut, dass Vars.Save nur Zahlen und auch nur Vars.Save1 bis Vars.Save9 speichert; Vars.Save2 und Vars.Save10 sind beide wieder auf unerwartete Werte gestoßen.
 
 ## **Fazit**
@@ -92,7 +101,8 @@ function stein()
 end
 ```
 
-**Szenario 1:** baum() und dann stein() aufrufen: Der Stein wird auf 100|200 platziert (blöd, denn es sollte 200|200 sein)\
+**Szenario 1:** baum() und dann stein() aufrufen: Der Stein wird auf 100|200 platziert (blöd, denn es sollte 200|200 sein)
+
 **Szenario 2:** stein() aufrufen: Die Funktion bricht ab, weil es die Variable x nicht gibt. (bessere Option, aber trotzdem blöd)
 
 ```lua
