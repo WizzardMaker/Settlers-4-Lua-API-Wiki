@@ -54,15 +54,15 @@ end
 
 ## Beim Spielbeginn
 
-<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/tBCXU1P.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133422im_/https://i.imgur.com/tBCXU1P.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/oR3Q6b6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133422im_/https://i.imgur.com/oR3Q6b6.png" alt=""><figcaption></figcaption></figure>
 
 ## **Beim Spiel laden**
 
-<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/BM6AcAP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133422im_/https://i.imgur.com/BM6AcAP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../https://web.archive.org/web/20200829133422im_/https://i.imgur.com/1YhQzpV.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133422im_/https://i.imgur.com/1YhQzpV.png" alt=""><figcaption></figcaption></figure>
 
 Hier haben wir 5 Typen von Variablen:
 

@@ -27,11 +27,11 @@ dbg.stm("Ja, der globale Bereich wird vom Spiel aufgerufen!") -- nicht schön!!!
 
 Beim Spielstart sieht die Konsole möglicherweise so aus
 
-<figure><img src="../https://web.archive.org/web/20200829133418im_/https://i.imgur.com/dUluw2S.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133418im_/https://i.imgur.com/dUluw2S.png" alt=""><figcaption></figcaption></figure>
 
 Nach dem Laden des Spielstandes:
 
-<figure><img src="../https://web.archive.org/web/20200829133418im_/https://i.imgur.com/8G8gZ5n.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133418im_/https://i.imgur.com/8G8gZ5n.png" alt=""><figcaption></figcaption></figure>
 
 
 

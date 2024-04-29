@@ -23,7 +23,7 @@ end
 
 Nehmen wir für dieses Beispiel die Beispiel Editormap "576_demo.map". **Das Script IN der .map Datei muss dafür leer sein.** Um das Script nun der Map zuweisen zu können müssen wir eine Datei mit dem Namen _"576_demo.txt"_  im Ordner _".../thesettlers4/Script/ (History Edition)"_ bzw. _".../Die Siedler IV/Script"_ (normale Version) erstellen. In diese Datei fügen wir unseren Scriptcode ein.&#x20;
 
-<figure><img src="../https://web.archive.org/web/20200829133411im_/https://i.imgur.com/Y9kLOgb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133411im_/https://i.imgur.com/Y9kLOgb.png" alt=""><figcaption></figcaption></figure>
 
 Und das Script sollte dann funktionieren. Ein Beispielbild gibt's hier ganz unten :)
 
@@ -43,12 +43,12 @@ Zuerst öffnest du die Map, welche du bearbeiten möchtest. Sofern du bereits ei
 
 Nach dem Öffnen der Map kannst du nun das Beispielscript einfügen, den Button "Script Setzen" drücken und die Map exportieren.
 
-<figure><img src="../https://web.archive.org/web/20200829133411im_/https://i.imgur.com/MzxcPkC.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133411im_/https://i.imgur.com/MzxcPkC.jpg" alt=""><figcaption></figcaption></figure>
 
 ## **Fazit**
 
 Wenn du das gemacht hast und dein Script synaktisch korrekt ist, solltest du jetzt das hier beim Spielstart sehen:
 
-<figure><img src="../https://web.archive.org/web/20200829133411im_/https://i.imgur.com/9p2ocxC.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://web.archive.org/web/20200829133411im_/https://i.imgur.com/9p2ocxC.png" alt=""><figcaption></figcaption></figure>
 
 Man siehe unten wird die Nachricht ausgegeben und das Tutorial ist damit beendet. Beide genannten Möglichkeiten haben ihre Vor- und Nachteile. Um ein Script beispielsweise mit anderen zu teilen, ist es am sinnvollsten dies direkt in der .map Datei zu hinterlegen
